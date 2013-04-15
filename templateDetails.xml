@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="2.5" type="template" method="upgrade">
+	
+	<name>isalcedo</name><!-- name the template -->
+	<creationDate>2013-02-25</creationDate><!-- the date your are beginn to code -->
+	<author>Ignacio Salcedo</author><!-- your name (oops, I repeat myself) -->
+	<copyright>Creartive Commons 3.0 - 2013 isalcedo.com</copyright><!-- for who you are coding -->
+	<authorEmail>ignacio@isalcedo.com</authorEmail><!-- your email address -->
+	<authorUrl>http://www.isalcedo.com</authorUrl><!-- your url -->
+	<version>1.5.0</version><!-- give your template a number -->
+	<description><![CDATA[ 
+		<h1>isalcedo</h1>
+		<p><img src="../templates/isalcedo/template_preview.png" /></p>
+		<h2>Module positions</h2>
+		<ol>
+			<li>debug</li>
+		</ol>
+		<p>Created by <a href="http://www.isalcedo.com" target="_blank">your name | isalcedo.com</a>.</p>
+	]]></description><!-- change the description as you like -->
+	
+	<files><!-- no need to change -->
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>apple-touch-icon-57x57.png</filename>
+		<filename>apple-touch-icon-72x72.png</filename>
+		<filename>apple-touch-icon-114x114.png</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<languages folder="language"><!-- no need to change -->
+		<language tag="de-DE">de-DE.isalcedo.ini</language>
+		<language tag="en-GB">en-GB.isalcedo.ini</language>
+		<language tag="es-ES">es-ES.isalcedo.ini</language>
+	</languages>
+	
+	<positions><!-- define the positions for modules here -->
+		<position>debug</position>
+		<position>menu</position>
+		<position>banner</position>
+		<position>footer</position>
+		<position>der-1</position>
+		<position>slogan</position>
+		<position>bread</position>
+	</positions>
+	
+	<config><!-- no need to change -->
+		<fields name="params">
+			<fieldset name="basic">
+			  <!-- MODERNIZR-->
+  			  <field name="modernizr" type="radio" default="1" label="TPL_TEMPLATENAME_PARAMETER_MODERNIZR_LABEL" description="TPL_TEMPLATENAME_PARAMETER_MODERNIZR_DESC">
+  					<option value="0">JNO</option>
+  					<option value="1">JYES</option>
+  				</field>
+  				<field name="TPL_TEMPLATENAME_PARAMETER_MODERNIZR_DOC" type="spacer" hr="false" />
+  				<field type="spacer" hr="true" />
+		    <!-- TWITTER BOOTSTRAP-->
+  		    <field name="bootstrap" type="radio" default="0" label="TPL_TEMPLATENAME_PARAMETER_BOOTSTRAP_LABEL" description="TPL_TEMPLATENAME_PARAMETER_BOOTSTRAP_DESC">
+  					<option value="0">JNO</option>
+  					<option value="1">JYES</option>
+  				</field>
+  				<field name="TPL_TEMPLATENAME_PARAMETER_BOOTSTRAP_DOC" type="spacer" hr="false" />
+  				<field type="spacer" hr="true" />
+				<!-- Foundation Zurb-->
+  		    <field name="zurb" type="radio" default="0" label="TPL_TEMPLATENAME_PARAMETER_ZURB_LABEL" description="TPL_TEMPLATENAME_PARAMETER_ZURB_DESC">
+  					<option value="0">JNO</option>
+  					<option value="1">JYES</option>
+  				</field>
+  				<field name="TPL_TEMPLATENAME_PARAMETER_ZURB_DOC" type="spacer" hr="false" />
+  				<field type="spacer" hr="true" />
+				<!-- Foundation Zurb Icons -->
+				<field name="zurbicons" type="radio" default="0" label="TPL_TEMPLATENAME_PARAMETER_ZURBICONS_LABEL" description="TPL_TEMPLATENAME_PARAMETER_ZURBICONS_DESC">
+  					<option value="0">JNO</option>
+  					<option value="1">JYES</option>
+  				</field>
+  				<field name="TPL_TEMPLATENAME_PARAMETER_ZURBICONS_DOC" type="spacer" hr="false" />
+  				<field type="spacer" hr="true" />
+				<!-- PIE-->
+  				<field name="pie" type="radio" default="1" label="TPL_TEMPLATENAME_PARAMETER_PIE_LABEL" description="TPL_TEMPLATENAME_PARAMETER_PIE_DESC">
+  					<option value="0">JNO</option>
+  					<option value="1">JYES</option>
+  				</field>
+  				<field name="TPL_TEMPLATENAME_PARAMETER_PIE_DOC" type="spacer" hr="false" />
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>

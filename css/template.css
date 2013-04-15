@@ -1,0 +1,207 @@
+/* TEMPLATE CSS
+*********************************************/
+@font-face {
+  font-family: 'Strait';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Strait'), local('Strait-Regular'), url(http://themes.googleusercontent.com/static/fonts/strait/v1/lUDxGkKH3HNEwBuYK6j2SQ.woff) format('woff');
+}
+
+html {overflow-y:scroll;}
+
+/* LAYOUT
+*********************************************/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Strait', sans-serif;
+	color:#8aa5bf;
+}
+/* Index */
+header {	
+	text-align: center;
+}
+header h1.titulo {
+	color:#8aa5bf;
+	font-family: 'Strait', sans-serif;
+}
+header h2.sub-titulo {
+	color:#85b0d9;
+	font-family: 'Strait', Helvetica;
+	margin:15px 0 0 0;
+	font-size: 14px;
+}
+ul.menu {
+	font-family: 'Kotta One', Helvetica;
+	margin:30px 0 0 -22px;
+	text-align: right;
+}
+ul.menu a {
+	font-size: 14px;
+	color:#85b0d9;
+	font-weight: 900;
+}
+ul.menu a:hover {
+	color:#6b975d;
+}
+ul.menu li {
+	display: inline-block;
+	float:none;
+	color:#85b0d9;
+}
+ul.menu li:last-child {
+	display: none;
+}
+div.cien {
+	width: 100%;
+	margin:15px 0;
+	background:#8aa5bf;
+	padding:20px 0;
+	color:#fff;
+}
+div.breadcrumbs {
+	margin:0 0 15px 0;
+	color:#85b0d9;
+	border-top: #85b0d9 dashed 1px;
+	border-bottom: #85b0d9 dashed 1px;
+	padding: 5px;
+}
+div.breadcrumbs a, div.breadcrumbs span {
+	color:#85b0d9;
+	margin:0 5px;
+}
+div.breadcrumbs a:hover {
+	color:#6b975d;
+}
+div.contenedor {
+	color:#435a6f;
+}
+div.contenedor>div.eight {
+}
+a {
+	color:#85b0d9;	
+}
+a:hover {
+	color:#6b975d;
+}
+footer a {
+	color:#85b0d9;
+}
+footer a:hover {
+	color:#6b975d;
+}
+footer {
+	color:#435a6f;
+	text-align: center;
+	margin: 15px 0;
+	border-top: dotted 1px #999;
+	padding:10px 0;
+}
+.moduletable h1, .moduletable h2, .moduletable h3, .moduletable h4, .moduletable h5, .moduletable h6 {
+	margin:0 0 10px 0;
+	color:#8aa5bf;
+	font-size: 16px;
+	font-weight: 900;
+}
+/* Slogan */
+.cien .slogan p {
+	font-size: 28px;
+	font-family: 'Strait', sans-serif;
+	text-align: center;
+}
+.cien .slogan strong {
+	font-size: 35px;
+	font-family: 'Kotta One', Helvetica;
+}
+.cien .slogan span {
+	font-style: italic;
+	font-family: 'Kotta One', Helvetica;
+}
+.bx-wrapper {
+	margin:0 0 15px 0;
+}
+.bannerdesc {
+	float: left;
+	position: absolute;
+	top:170px;
+	background: url(../images/bckdesc.png) repeat;
+	padding: 10px;
+	margin:0 0 0 50px;
+	border-radius: 10px 10px 10px 10px
+}
+.bannerdesc p {
+	color:#234364;
+	margin: 0;
+	font-weight: 900;
+	font-size: 20px;
+	font-family: 'Kotta One', Helvetica;
+}
+/* Twitter - Fb */
+.moduletable.twitter h3 {
+	margin:5px 0 10px 0;
+	color:#fff;
+	font-size: 16px;
+	font-weight: 900;
+}
+.moduletable.twitter {
+	background:#8aa5bf;
+	padding:10px;
+	color:#fff;
+	margin:0 0 15px 0;
+	font-family: 'Kotta One', Helvetica;
+}
+.TDB-tweet {
+	margin:0 0 10px 0;
+}
+.TDB-tweet a {
+	margin:0 5px 0 0;
+	color:#3e575e;
+}
+.TDB-tweet span {
+	margin:0 5px 0 0;
+}
+.TDB-footer-follow-link {
+	margin:10px 0;
+}
+.TDB-tweet-time {
+	margin: 5px 0 0 0;
+}
+.TDB-tweet-time a {
+	margin:0 5px;
+}
+.moduletable.fb {
+	border:solid 2px #8aa5bf;
+	padding:10px;
+	color:#8aa5bf;
+	margin:0 0 15px 0;
+}
+.row.portafolio img {
+	height: 188px;
+	width: 320px;
+	margin: 0 10px 0 0;
+}
+.button.dropdown {
+	margin-top:15px;
+	background:#8aa5bf !important;
+}
+/* Media Queries
+*********************************************/
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+  
+}
+ 
+/* Large desktop */
+@media (min-width: 1200px) { 
+  
+}
+
